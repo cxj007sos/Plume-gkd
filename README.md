@@ -91,7 +91,7 @@ export default defineGkdSubscription({
 
 - 本仓库
 
-<cxj007sos/Plume-gkd/subscription/settings/actions>
+<https://github.com/cxj007sos/Plume-gkd/subscription/settings/actions>
 
 然后找到 Workflow permissions 点击 Read and write permissions 然后点击下方的 Save 即可
 
