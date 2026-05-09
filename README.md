@@ -105,8 +105,19 @@ https://raw.githubusercontent.com/username/subscription/main/dist/gkd.json5
 
 这是大羽的 gkd.json 文件订阅地址
 
+复制以下任意一个链接到 GKD 即可使用本订阅规则
+
+
+- GitHub源
+
 ```txt
 https://raw.githubusercontent.com/cxj007sos/Plume-gkd/main/dist/gkd.json5
+```
+
+- 大陆镜像加速源
+
+```txt
+https://registry.npmmirror.com/@cxj007sos/Plume-gkd/main/dist/gkd.json5
 ```
 
 ## 镜像加速
