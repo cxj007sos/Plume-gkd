@@ -11,7 +11,7 @@ export default defineGkdApp({
       // 同时匹配两个广告页面
       activityIds: [
         'com.sina.weibo.MainTabActivity',
-        'com.sina.weibo.SplashActivity'
+        'com.sina.weibo.SplashActivity',
       ],
       rules: [
         {
@@ -19,7 +19,7 @@ export default defineGkdApp({
           matches: '[text*="跳过"][visibleToUser=true]',
           snapshotUrls: [
             'https://i.gkd.li/i/27545269',
-            'https://i.gkd.li/i/27547054'
+            'https://i.gkd.li/i/27547054',
           ],
         },
       ],
