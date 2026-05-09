@@ -83,7 +83,15 @@ export default defineGkdSubscription({
 
 当提交代码到仓库时, 我们也需要使用 github actions 来帮助自动格式化并修复代码, 因此您需要开启仓库的此项权限
 
-打开 <https://github.com/username/subscription/settings/actions>
+打开 
+
+- 示例
+  
+<https://github.com/username/subscription/settings/actions>
+
+- 本仓库
+
+<cxj007sos/Plume-gkd/subscription/settings/actions>
 
 然后找到 Workflow permissions 点击 Read and write permissions 然后点击下方的 Save 即可
 
