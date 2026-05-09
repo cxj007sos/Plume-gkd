@@ -15,7 +15,9 @@ export default defineGkdGlobalGroups([
           '[text*="SKIP"][visibleToUser=true]',
         ],
         // 可以用你之前上传的微博快照作为示例
-        snapshotUrls: ['https://i.gkd.li/i/27545269'],
+        snapshotUrls: ['https://i.gkd.li/i/27545269',
+                       'https://i.gkd.li/i/27548441'
+        ],
       },
     ],
   },
