@@ -14,7 +14,6 @@ export default defineGkdApp({
           key: 0,
           matches: '[text*="跳过"][visibleToUser=true]',
           snapshotUrls: ['https://i.gkd.li/i/27548441'],
-          //delay: 500, // 适配动态文字渲染延迟
         },
       ],
     },
