@@ -103,6 +103,12 @@ export default defineGkdSubscription({
 https://raw.githubusercontent.com/username/subscription/main/dist/gkd.json5
 ```
 
+这是大羽的 gkd.json 文件订阅地址
+
+```txt
+https://raw.githubusercontent.com/cxj007sos/Plume-gkd/main/dist/gkd.json5
+```
+
 ## 镜像加速
 
 raw.githubusercontent.com 在大陆的访问常常无法访问
