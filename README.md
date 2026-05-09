@@ -1,3 +1,51 @@
+# Plume-gkd 大羽的GKD规则模板
+
+用于学习GKD规则的仓库，仅用于自己。不维护提出的其他跳过需求。
+
+### 常用链接
+
+> #### 后期维护用
+>
+> 添加规则
+>
+> <https://github.com/cxj007sos/Plume-gkd/tree/main/src/>
+>
+> 构建订阅
+>
+> <https://github.com/cxj007sos/Plume-gkd/actions/workflows/build_release.yml>
+##  
+
+> #### 前期准备用
+>
+> 初始化 nodejs 环境
+>
+> <https://github.com/cxj007sos/Plume-gkd/edit/main/src/subscription.ts>
+>
+> 修复格式（授权构建订阅）
+>
+> <https://github.com/cxj007sos/Plume-gkd/settings/actions>
+## 
+
+#### 订阅地址
+
+GitHub源
+
+```txt
+https://raw.githubusercontent.com/cxj007sos/Plume-gkd/main/dist/gkd.json5
+```
+
+大陆镜像加速源
+
+```txt
+https://registry.npmmirror.com/@cxj007sos/Plume-gkd/main/dist/gkd.json5
+```
+##
+<br>
+<br>
+<br>
+
+##
+
 # subscription-template
 
 GKD 订阅模板, 此仓库方便您直接构建自己订阅, 点击右上角 [Use this template](https://github.com/new?template_name=subscription-template&template_owner=gkd-kit) 即可使用
