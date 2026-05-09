@@ -42,6 +42,7 @@ pnpm install --registry=https://registry.npmmirror.com
 如果您无法初始化 nodejs 环境, 那可以直接使用 github 网页编辑文件后在线提交, 点击下面链接即可在线编辑
 
 <https://github.com/username/subscription/edit/main/src/subscription.ts>
+<https://github.com/cxj007sos/Plume-gkd/edit/main/src/subscription.ts>
 
 ![image](https://e.gkd.li/bb539a50-cbdb-4fec-8a93-4a9c5d067de0)
 
@@ -91,7 +92,9 @@ export default defineGkdSubscription({
 
 我们使用其中的 `build_release.yml` 构建并发布
 
-打开 <https://github.com/username/subscription/actions/workflows/build_release.yml>
+打开 
+<https://github.com/username/subscription/actions/workflows/build_release.yml>
+<https://github.com/cxj007sos/Plume-gkd/actions/workflows/build_release.yml>
 
 然后点击右侧的 `Run workflow` 即可运行并发布
 
