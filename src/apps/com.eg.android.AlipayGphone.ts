@@ -1,6 +1,6 @@
-import { defineAppConfig } from '@gkd-kit/define';
+import { defineApp } from '@gkd-kit/define';
 
-export default defineAppConfig({
+export default defineApp({
   id: 'com.eg.android.AlipayGphone',
   name: '支付宝',
   groups: [
