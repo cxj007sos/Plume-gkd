@@ -7,7 +7,8 @@ export default defineGkdApp({
     {
       key: 11,
       name: '订单完成-网页弹窗广告',
-      activityIds: 'com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$App01',
+      activityIds:
+        'com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$App01',
       rules: [
         {
           key: 0,
@@ -17,11 +18,11 @@ export default defineGkdApp({
           // 直接作为规则根属性传入，新版规范使用 left 和 top
           position: {
             left: 532,
-            top: -969
+            top: -969,
           },
-          snapshotUrls: ['https://i.gkd.li/i/28292384']
-        }
-      ]
-    }
-  ]
+          snapshotUrls: ['https://i.gkd.li/i/28292384'],
+        },
+      ],
+    },
+  ],
 });
