@@ -11,15 +11,17 @@ export default defineGkdApp({
       rules: [
         {
           key: 0,
-          // 网页端测试通过的选择器
           matches: 'View[width=1152][height=1728][visibleToUser=true]',
-          // 网页端目前无法直观验证，依赖手机实测的坐标
-          action: 'clickPosition',
-          position: {
-            x: 532,
-            y: -969
+          action: 'click',
+          // 关键修正：在新版中，相对位置必须放在 actionPosition 里包裹
+          actionPosition: {
+            position: {
+              left: 532,
+              top: -969
+            }
           },
-          snapshotUrls: 'https://i.gkd.li/i/28292384'
+          // 修正：快照链接在新版类型中通常定义为字符串数组 string[]
+          snapshotUrls: ['https://i.gkd.li/i/28292384']
         }
       ]
     }
