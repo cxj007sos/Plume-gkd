@@ -2,12 +2,12 @@ import { defineGkdApp } from '@gkd-kit/define';
 
 export default defineGkdApp({
   id: 'com.eg.android.AlipayGphone',
-  name: '支付宝',
+  name: '支付宝-全屏弹窗与开屏广告过滤',
+  desc: '合并了订单完成弹窗与小程序开屏广告，使用坐标自适应点击',
   groups: [
     {
       key: 11,
-      name: '全屏广告-小程序及网页弹窗',
-      desc: '合并了订单完成弹窗与小程序开屏广告(坐标自适应点击)',
+      name: '全屏广告-小程序及网页弹窗-坐标自适应偏移点击右上角[X]',
       rules: [
         {
           key: 0,
@@ -26,8 +26,7 @@ export default defineGkdApp({
         },
         {
           key: 1,
-          name: '开屏广告-小程序开屏',
-          desc: '坐标点击[关闭]',
+          name: '开屏广告-小程序开屏-坐标自适应偏移点击左上角[关闭]',
           fastQuery: true,
           activityIds: 'com.alipay.mobile.nebulax.xriver.activity.XRiverActivity$',
           position: {
