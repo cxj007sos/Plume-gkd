@@ -37,7 +37,7 @@ https://raw.githubusercontent.com/cxj007sos/Plume-gkd/main/dist/gkd.json5
 大陆镜像加速源
 
 ```txt
-https://cdn.jsdmirror.com/gh/cxj007sos/Plume-gkd@main/dist/gkd.json5
+https://fastly.jsdelivr.net/gh/cxj007sos/Plume-gkd@main/dist/gkd.json5
 ```
 ##
 <br>
@@ -188,7 +188,7 @@ https://raw.githubusercontent.com/cxj007sos/Plume-gkd/main/dist/gkd.json5
 - 大陆镜像加速源
 
 ```txt
-https://cdn.jsdmirror.com/gh/cxj007sos/Plume-gkd@main/dist/gkd.json5
+https://fastly.jsdelivr.net/gh/cxj007sos/Plume-gkd@main/dist/gkd.json5
 ```
 
 ## 镜像加速
